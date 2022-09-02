@@ -14,6 +14,7 @@ gt.ThemeStyle.LightColorblind = 'light_colorblind'
 gt.HighlightStyle = {}
 gt.HighlightStyle.None = 'NONE'
 gt.HighlightStyle.Bold = 'bold'
+gt.HighlightStyle.BoldItalic = 'bold,italic'
 gt.HighlightStyle.Underline = 'underline'
 gt.HighlightStyle.Undercurl = 'undercurl'
 gt.HighlightStyle.Inverse = 'inverse'
