@@ -201,9 +201,9 @@ theme.setup = function(cfg)
     -- TSBoolean           = { };    -- For booleans.
     -- TSCharacter         = { };    -- For characters.
     -- TSComment           = { };    -- For comment blocks.
-    TSNote = { fg = c.bg, bg = c.info },
-    TSWarning = { fg = c.bg, bg = c.warning },
-    TSDanger = { fg = c.bg, bg = c.error },
+    TSNote = { fg = c.bg, bg = c.bg },
+    TSWarning = { fg = c.bg, bg = c.bg },
+    TSDanger = { fg = c.bg, bg = c.bg },
     TSConstructor = { fg = c.syntax.variable }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     TSConstant = { fg = c.syntax.constant }, -- For constants
