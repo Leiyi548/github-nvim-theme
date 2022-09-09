@@ -498,6 +498,8 @@ theme.setup = function(cfg)
     CmpItemKindModule = { fg = c.syntax.string },
 
     -- nvim-navic
+    NavicSeparator = { fg = c.fg_light },
+    NavicText = { fg = c.text },
     NavicIconsFile = { fg = c.syntax.comment },
     NavicIconsModule = { fg = c.syntax.comment },
     NavicIconsNamespace = { fg = c.syntax.comment },
@@ -510,6 +512,11 @@ theme.setup = function(cfg)
     NavicIconsClass = { fg = c.orange },
     NavicIconsEvent = { fg = c.orange },
     NavicIconsStruct = { fg = c.orange },
+
+    -- winbar
+    WinbarFilename = { fg = c.black },
+    WinbarModifySign = { fg = c.black },
+    WinbarBufferNumber = { fg = c.blue },
 
     -- nvim-notify
     NotifyERRORTitle = { fg = util.darken(c.error, 0.9) },
