@@ -391,7 +391,8 @@ theme.setup = function(cfg)
     TelescopePromptPrefix = { fg = c.fg },
     TelescopeMatching = { fg = c.syntax.constant, style = Styles.Bold },
     TelescopeMultiSelection = { fg = c.syntax.comment },
-    TelescopeSelection = { bg = c.bg_visual_selection },
+    TelescopeSelection = { fg = c.git.conflict, style = Styles.Bold },
+    -- TelescopeSelection = { bg = c.bg_visual_selection },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.fg_light, bg = c.bg_sidebar },
